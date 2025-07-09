@@ -1,1 +1,13 @@
+version: 2
 
+sources:
+  - name: dbo
+    config:
+      enabled: true
+    tables:
+      - name: DIM_JM  # enabled
+      - name: DIM_TOWAR
+      - name: DIM_FAKTURA
+      - name: dim_x  # not enabled
+        config:
+          enabled: false
