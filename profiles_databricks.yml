@@ -1,0 +1,11 @@
+Kruk_profile:
+  outputs:
+    dev:
+      type: databricks
+      #catalog: catalog_name
+      schema: [schema_name]
+      host: [host_address]
+      http_path: [protocol]
+      token: "[XXXXXXXX]"      #token-based
+      threads: 1
+  target: dev

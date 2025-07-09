@@ -1,0 +1,14 @@
+Kruk_profile:
+  outputs:
+    dev:
+      type: sqlserver
+      driver: 'ODBC Driver 17 for SQL Server' # (The ODBC Driver installed on your system)
+      server: localhost\SQLEXPRESS
+      port: 1433
+      database: Test
+      schema: dbo
+      user: user1
+      password: qwe123!@#
+      windows_login: false
+      trust_cert: true
+  target: dev

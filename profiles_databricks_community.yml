@@ -1,0 +1,14 @@
+Kruk_profile:
+  outputs:
+    dev:
+      type: databricks
+      #catalog: catalog_name
+      schema: MY_SCHEMA
+      host: community.cloud.databricks.com
+      http_path: /sql/protocolv1/o/3042573065888342/0422-084634-y31gg4pt
+      #token: "tokentokentoken"      #token-based
+      auth_type: oauth               #OAuth-based
+      client_id: OAUTH_CLIENT_ID     #OAuth-based   3042573065888342
+      client_secret: XXXXX           #OAuth-based
+      threads: 1
+  target: dev
